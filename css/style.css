@@ -66,6 +66,14 @@ p {
         width: 1170px;
     }
 }
+@media (min-width: 1920px) {
+    .container{
+        width: 1890px;
+    }
+    header .hero {
+        color: rgb(194, 255, 192);
+    }
+}
 /* HEADER */
 header {
     color:#FFFFFF;
