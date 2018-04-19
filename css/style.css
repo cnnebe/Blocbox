@@ -422,8 +422,10 @@ header .hero img {
     margin-right:10px;
     margin-top:8px;
   }
-  .left-nav .items .active {
-    background:#34495E;
+  .active {
+    background-color:#34495E;
+    width: 100%;
+    padding: 5px 10px 5px 0px;
   }
    /* CONTENT */
  .content {
