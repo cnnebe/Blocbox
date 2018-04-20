@@ -11,9 +11,11 @@
 .dropit {
     list-style: none;
 	padding: 0;
-    margin: 15px 0 0;
-    float:right;
+    float: right;
     display:inline-block;
+}
+.accounts.dropit {
+    margin: 0;
 }
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
@@ -34,6 +36,10 @@
     border-radius: 4px;
 }
 
+.accounts.dropit .dropit-submenu {
+    top: -140px;
+}
+
 .dropit .dropit-open .dropit-submenu:after {
     content: " ";
     position: absolute;
@@ -45,6 +51,10 @@
     z-index: 1;
     top: -8px;
     right: 10px;
+}
+.accounts.dropit .dropit-open .dropit-submenu:after {
+    border-width: 8px 8px 0; 
+    top: 118px;
 }
 
 .dropit .dropit-open .dropit-submenu li {
