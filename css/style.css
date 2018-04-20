@@ -347,6 +347,7 @@ header .hero img {
     background:#F7F7F7;
   }
   .left-nav {
+<<<<<<< HEAD
     height: 100%;
     width:280px;
     position: absolute;
@@ -385,6 +386,16 @@ header .hero img {
     border-radius: 4px;
     left: 5px;
     top: 15px;
+=======
+    height: 100vh;
+    width:14.66666667%;
+    color:#FFFFFF;
+    background: #34495E;
+    background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+    float:left;
+    position: fixed;
+    display:block;
+>>>>>>> 68bf63de3c9b7739cf1e9c26bfa12d7ca0b0d1dd
   }
   .left-nav .site-logo {
     padding:20px 0;
@@ -452,11 +463,14 @@ header .hero img {
     margin-right:10px;
     margin-top:8px;
   }
+<<<<<<< HEAD
   .active {
     background-color:#34495E;
     width: 100%;
     padding: 5px 10px 5px 0px;
   }
+=======
+>>>>>>> 68bf63de3c9b7739cf1e9c26bfa12d7ca0b0d1dd
    /* CONTENT */
  .content {
     padding:6em 1% 1.5em;
@@ -573,6 +587,7 @@ header .hero img {
     color: #333333;
     line-height: 18px;
     margin:5px 0 0;
+<<<<<<< HEAD
   }
   @media (min-width:992px) {
     .left-nav {
@@ -599,4 +614,6 @@ header .hero img {
     .hamburger {
       display:none;
     }
+=======
+>>>>>>> 68bf63de3c9b7739cf1e9c26bfa12d7ca0b0d1dd
   }
